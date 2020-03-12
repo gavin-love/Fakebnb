@@ -1,7 +1,14 @@
-<div class="jumbo">
-  <div class="right tomster"></div>
+<JumboHeader>
   <h2>Welcome to Super Rentals!</h2>
   <p>We hope you find exactly what you're looking for in a place to stay.</p>
   <LinkTo @route="about" class="button about">About Us</LinkTo>
   <LinkTo @route="contact" class="button contact">Contact Us</LinkTo>
+</JumboHeader>
+
+<div class="rentals">
+  <ul class="results">
+    <li><RentalCard /></li>
+    <li><RentalCard /></li>
+    <li><RentalCard /></li>
+  </ul>
 </div>
