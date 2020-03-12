@@ -7,8 +7,8 @@
 
 <div class="rentals">
   <ul class="results">
-    <li><RentalCard /></li>
-    <li><RentalCard /></li>
-    <li><RentalCard /></li>
+    {{#each @model as |rental|}}
+      <li><RentalCard @rental={{rental}} /></li>
+    {{/each}}
   </ul>
 </div>
