@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
 /**
  * Base Elements
@@ -21,7 +21,7 @@ div,
 span,
 a,
 button {
-  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-family: 'roboto', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -81,7 +81,6 @@ p {
   height: 4em;
   background-color: #677ae4;
   background-color: #05526A;
-  background-color: #e46855;
 }
 
 .menu h1 {
