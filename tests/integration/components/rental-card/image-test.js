@@ -9,8 +9,8 @@ module('Integration | Component | rental-card/image', function(hooks) {
   hooks.beforeEach( async function() {
     await render(hbs`
     <RentalCard::Image
-      src="/assets/images/teaching-tomster.png"
-     alt="Teaching Tomster"
+      src="/assets/images/sour_patch_kid.png"
+     alt="Sour Patch Kid"
     />  
   `)
   })
@@ -18,8 +18,8 @@ module('Integration | Component | rental-card/image', function(hooks) {
   test('it renders an image based on passed attributes', async function(assert) {
 
     assert.dom('.image').exists()
-    assert.dom('.image img').hasAttribute('src', '/assets/images/teaching-tomster.png')
-    assert.dom('.image img').hasAttribute('alt', 'Teaching Tomster')
+    assert.dom('.image img').hasAttribute('src', '/assets/images/sour_patch_kid.png')
+    assert.dom('.image img').hasAttribute('alt', 'Sour Patch Kid')
   })
 
   test('clicking on the image toggles the size', async function(assert) {

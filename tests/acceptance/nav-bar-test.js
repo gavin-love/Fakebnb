@@ -9,7 +9,7 @@ module('Acceptance | super rentals', function(hooks) {
     await visit('/')
 
     assert.dom('nav').exists()
-    assert.dom('nav a.menu-index').hasText('SuperRentals')
+    assert.dom('nav a.menu-index').hasText('Fakebnb')
     assert.dom('nav a.menu-about').hasText('About')
     assert.dom('nav a.menu-contact').hasText('Contact')
 

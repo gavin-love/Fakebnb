@@ -10,8 +10,8 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/')
     assert.dom('nav').exists()
-    assert.dom('h1').hasText('SuperRentals')
-    assert.dom('h2').hasText('Welcome to Super Rentals!')
+    assert.dom('h1').hasText('Fakebnb')
+    assert.dom('h2').hasText('Welcome to Fakebnb!')
     assert.dom('.jumbo a.button.about').hasText('About Us')
     assert.dom('.jumbo a.button.contact').hasText('Contact Us')
   })
@@ -29,7 +29,7 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/rentals/grand-old-mansion');
     assert.dom('nav').exists();
-    assert.dom('h1').containsText('SuperRentals');
+    assert.dom('h1').containsText('Fakebnb');
     assert.dom('h2').containsText('Grand Old Mansion');
     assert.dom('.rental.detailed').exists();
   });
@@ -43,9 +43,9 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/about')
     assert.dom('nav').exists()
-    assert.dom('h1').hasText('SuperRentals')
-    assert.dom('h2').hasText('About Super Rentals')
-    assert.dom('p').hasText('The Super Rentals website is a delightful project created to explore Ember. By building a property rental site, we can simultaneously imagine traveling AND building Ember applications.')
+    assert.dom('h1').hasText('Fakebnb')
+    assert.dom('h2').hasText('About Fakebnb')
+    assert.dom('p').hasText("Fakebnb is the place to be! Don't miss out! Book Now.")
     assert.dom('.jumbo a.button.contact').hasText('Contact Us')
     assert.dom('.jumbo a.button.home').hasText('Home')
   })
@@ -59,9 +59,9 @@ module('Acceptance | super rentals', function(hooks) {
 
     assert.equal(currentURL(), '/getting-in-touch')
     assert.dom('nav').exists()
-    assert.dom('h1').hasText('SuperRentals')
+    assert.dom('h1').hasText('Fakebnb')
     assert.dom('h2').hasText('Contact Us')
-    assert.dom('p').hasText('Super Rentals Representatives would love to help you choose a destination or answer any questions you may have.')
+    assert.dom('p').hasText("Fakebnb is the place to be! Don't miss out! Book Now.")
     assert.dom('.jumbo a.button.about').hasText('About Us')
     assert.dom('.jumbo a.button.home').hasText('Home')
   })

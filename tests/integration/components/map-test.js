@@ -91,7 +91,7 @@ module('Integration | Component | map', function(hooks) {
         @zoom="10"
         @width="150"
         @height="120"
-        src="/assets/images/teaching-tomster.png"
+        src="/assets/images/sour_patch_kid.png"
         width="200"
         height="300"
       />`)

@@ -447,8 +447,8 @@ p {
   position: relative;
 }
 
-.tomster {
-  background: url(../assets/images/teaching-tomster.png);
+.sourPatch {
+  background: url(../assets/images/sour_patch_kid.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;

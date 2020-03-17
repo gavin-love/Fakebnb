@@ -14,6 +14,6 @@ module('Integration | Component | jumbo-header', function(hooks) {
 
     assert.dom('.jumbo').exists()
     assert.dom('.jumbo').hasText('Hello World')
-    assert.dom('.jumbo .tomster').exists()
+    assert.dom('.jumbo .sourPatch').exists()
   })
 })
