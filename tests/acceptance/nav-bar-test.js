@@ -2,7 +2,7 @@ import { module, test } from 'qunit'
 import { click, visit, currentURL } from '@ember/test-helpers'
 import { setupApplicationTest } from 'ember-qunit'
 
-module('Acceptance | super rentals', function(hooks) {
+module('Acceptance | fake-bnb', function(hooks) {
   setupApplicationTest(hooks)
 
   test('navigating using the nav-bar', async function(assert) {
