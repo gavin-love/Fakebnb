@@ -1,1 +1,1 @@
-[ ] test heroku config vars
+[x] test heroku config vars
