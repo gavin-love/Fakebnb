@@ -4,7 +4,7 @@
 
 const path = require('path');
 
-module.exports = function(env) {
+module.exports = function() {
   return {
     clientAllowedKeys: ['MAPBOX_ACCESS_TOKEN'],
     fastbootAllowedKeys: [],
