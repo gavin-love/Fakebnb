@@ -25,12 +25,14 @@ module('Acceptance | fake-bnb', function(hooks) {
   });
 
   test('visiting /rentals/grand-old-mansion', async function(assert) {
+    let rentals = server.createList('rental');
+
     await visit('/rentals/grand-old-mansion');
 
     assert.equal(currentURL(), '/rentals/grand-old-mansion');
     assert.dom('nav').exists();
     assert.dom('h1').containsText('Fakebnb');
-    assert.dom('h2').containsText('Grand Old Mansion');
+    assert.dom('h2').containsText(rentals[0].name);
     assert.dom('.rental.detailed').exists();
   });
 
