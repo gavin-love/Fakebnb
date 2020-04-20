@@ -25,7 +25,7 @@ module('Acceptance | fake-bnb', function(hooks) {
   });
 
   test('visiting /rentals/grand-old-mansion', async function(assert) {
-    let rentals = server.createList('rental');
+    let rentals = this.server.createList('rental');
 
     await visit('/rentals/grand-old-mansion');
 

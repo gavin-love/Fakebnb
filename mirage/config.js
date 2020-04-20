@@ -26,7 +26,5 @@ export default function() {
 
  this.namespace = 'api';
 
- this.get('/rentals', (schema) => {
-   return schema.authors.all();
- })
+ this.get('/rentals.json')
 }
