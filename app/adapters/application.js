@@ -7,3 +7,8 @@ export default class ApplicationAdapter extends JSONAPIAdapter {
     return `${super.buildURL(...args)}.json`;
   }
 }
+
+// export default class ApplicationAdapter extends JSONAPIAdapter {
+//   namespace = 'v2.0';
+//   host = 'https://api.weatherbit.io'
+// }
