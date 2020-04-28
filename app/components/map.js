@@ -9,9 +9,14 @@ export default class MapComponent extends Component {
     get imageSRC() {
         let { lng, lat, width, height, zoom } = this.args;
     
+        lat = 45.5175
+        lng = -122.6801
+
         let coordinates = `${lng},${lat},${zoom}`;
         let dimensions  = `${width}x${height}`;
         let accessToken = `access_token=${this.mapboxToken}`;
+
+
     
         return `${MAPBOX_API}/${coordinates}/${dimensions}@2x?${accessToken}`;
       }

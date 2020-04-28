@@ -8,6 +8,7 @@ module('Acceptance | fake-bnb', function(hooks) {
   setupMirage(hooks)
   
   test('visiting /', async function(assert) {
+    console.log('server', server)
     await visit('/')
 
     assert.equal(currentURL(), '/')

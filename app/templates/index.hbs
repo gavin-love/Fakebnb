@@ -7,6 +7,7 @@
 
 <div class="rentals">
   <ul class="results">
+    {{log 'model' @model}}
     {{#each @model as |rental|}}
       <li><RentalCard @rental={{rental}} /></li>
     {{/each}}
