@@ -1,19 +1,5 @@
 export default [
   {
-  "id": "downtown-charm",
-  "title": "Downtown Charm",
-  "owner": "Violet Beauregarde",
-  "city": "Portland",
-  "location": {
-    "lat": 45.5175,
-    "lng": -122.6801
-  },
-  "category": "Apartment",
-  "bedrooms": 3,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
-  "description": "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
-  },
-  {
     "id": "grand-old-mansion",
     "title": "Grand Old Mansion",
     "owner": "Veruca Salt",
@@ -40,5 +26,19 @@ export default [
     "bedrooms": 1,
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
     "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
+  },
+  {
+    "id": "downtown-charm",
+    "title": "Downtown Charm",
+    "owner": "Violet Beauregarde",
+    "city": "Portland",
+    "location": {
+      "lat": 45.5175,
+      "lng": -122.6801
+    },
+    "category": "Apartment",
+    "bedrooms": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "description": "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
   }
 ];
