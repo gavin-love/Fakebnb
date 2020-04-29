@@ -29,6 +29,9 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV['ember-cli-mirage'] = {
+      enabled: true,
+    };
   }
 
   if (environment === 'test') {
@@ -43,7 +46,6 @@ module.exports = function(environment) {
     ENV.APP.autoboot = false;
     ENV['ember-cli-mirage'] = {
       enabled: true,
-      autostart: true
     };
   }
 
