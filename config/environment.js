@@ -51,6 +51,9 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV['ember-cli-mirage'] = {
+      enabled: true,
+    };
   }
 
   ENV.MAPBOX_ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN
